@@ -1,0 +1,386 @@
+PS C:\Users\x1x\AppData\Local\Programs\Python\Python37> .\python.exe -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+Collecting numpy
+  Downloading https://files.pythonhosted.org/packages/a9/38/f6d6d8635d496d6b4ed5d8ca4b9f193d0edc59999c3a63779cbc38aa650f/numpy-1.18.1-cp37-cp37m-win_amd64.whl (12.8MB)
+    100% |████████████████████████████████| 12.8MB 1.4MB/s
+Collecting scipy
+  Downloading https://files.pythonhosted.org/packages/61/51/046cbc61c7607e5ecead6ff1a9453fba5e7e47a5ea8d608cc7036586a5ef/scipy-1.4.1-cp37-cp37m-win_amd64.whl (30.9MB)
+    100% |████████████████████████████████| 30.9MB 691kB/s
+Collecting matplotlib
+  Downloading https://files.pythonhosted.org/packages/dd/73/dc25ca27a9960539ef984921b0d42368445b856ae0861c3acba542b9a39c/matplotlib-3.1.2-cp37-cp37m-win_amd64.whl (9.1MB)
+    100% |████████████████████████████████| 9.1MB 2.0MB/s
+Collecting ipython
+  Downloading https://files.pythonhosted.org/packages/1c/f3/c8be38ee117d02508bb8b9158eb41ca416f442a6e8e3b3159c2f2d14ed79/ipython-7.11.1-py3-none-any.whl (777kB)
+    100% |████████████████████████████████| 778kB 2.1MB/s
+Collecting jupyter
+  Downloading https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl
+Collecting pandas
+  Downloading https://files.pythonhosted.org/packages/02/d0/1e8e60e61e748338e3a40e42f5dfeee63ccdecfc4f0894122b890bfb009a/pandas-0.25.3-cp37-cp37m-win_amd64.whl (9.2MB)
+    100% |████████████████████████████████| 9.2MB 2.5MB/s
+Collecting sympy
+  Downloading https://files.pythonhosted.org/packages/ce/5b/acc12e3c0d0be685601fc2b2d20ed18dc0bf461380e763afc9d0a548deb0/sympy-1.5.1-py2.py3-none-any.whl (5.6MB)
+    100% |████████████████████████████████| 5.6MB 2.3MB/s
+Collecting nose
+  Downloading https://files.pythonhosted.org/packages/15/d8/dd071918c040f50fa1cf80da16423af51ff8ce4a0f2399b7bf8de45ac3d9/nose-1.3.7-py3-none-any.whl (154kB)
+    100% |████████████████████████████████| 163kB 4.5MB/s
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 (from matplotlib)
+  Downloading https://files.pythonhosted.org/packages/5d/bc/1e58593167fade7b544bfe9502a26dc860940a79ab306e651e7f13be68c2/pyparsing-2.4.6-py2.py3-none-any.whl (67kB)
+    100% |████████████████████████████████| 71kB 3.8MB/s
+Collecting python-dateutil>=2.1 (from matplotlib)
+  Downloading https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227kB)
+    100% |████████████████████████████████| 235kB 2.4MB/s
+Collecting kiwisolver>=1.0.1 (from matplotlib)
+  Downloading https://files.pythonhosted.org/packages/c6/ea/e5474014a13ab2dcb5056608e0716c600c3d8a8bcffb10ed55ccd6a42eb0/kiwisolver-1.1.0-cp37-none-win_amd64.whl (57kB)
+    100% |████████████████████████████████| 61kB 3.2MB/s
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading https://files.pythonhosted.org/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl
+Collecting backcall (from ipython)
+  Downloading https://files.pythonhosted.org/packages/84/71/c8ca4f5bb1e08401b916c68003acf0a0655df935d74d93bf3f3364b310e0/backcall-0.1.0.tar.gz
+Collecting jedi>=0.10 (from ipython)
+  Downloading https://files.pythonhosted.org/packages/e9/97/55e575a5b49e5c3df9eb3c116c61021d7badf556c816be13bbd7baf55234/jedi-0.15.2-py2.py3-none-any.whl (1.1MB)
+    100% |████████████████████████████████| 1.1MB 1.8MB/s
+Requirement already satisfied: setuptools>=18.5 in c:\users\x1x\appdata\local\programs\python\python37\lib\site-packages (from ipython) (40.8.0)
+Collecting pygments (from ipython)
+  Downloading https://files.pythonhosted.org/packages/be/39/32da3184734730c0e4d3fa3b2b5872104668ad6dc1b5a73d8e477e5fe967/Pygments-2.5.2-py2.py3-none-any.whl (896kB)
+    100% |████████████████████████████████| 901kB 3.5MB/s
+Collecting decorator (from ipython)
+  Downloading https://files.pythonhosted.org/packages/8f/b7/f329cfdc75f3d28d12c65980e4469e2fa373f1953f5df6e370e84ea2e875/decorator-4.4.1-py2.py3-none-any.whl
+Collecting pickleshare (from ipython)
+  Downloading https://files.pythonhosted.org/packages/9a/41/220f49aaea88bc6fa6cba8d05ecf24676326156c23b991e80b3f2fc24c77/pickleshare-0.7.5-py2.py3-none-any.whl
+Collecting colorama; sys_platform == "win32" (from ipython)
+  Downloading https://files.pythonhosted.org/packages/c9/dc/45cdef1b4d119eb96316b3117e6d5708a08029992b2fee2c143c7a0a5cc5/colorama-0.4.3-py2.py3-none-any.whl
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 (from ipython)
+  Downloading https://files.pythonhosted.org/packages/7f/1f/e145dd467dc9b0e6f1e64232c03119498dfec497e383f1e8be9f83eaa97e/prompt_toolkit-3.0.2-py3-none-any.whl (344kB)
+    100% |████████████████████████████████| 348kB 2.5MB/s
+Collecting traitlets>=4.2 (from ipython)
+  Downloading https://files.pythonhosted.org/packages/ca/ab/872a23e29cec3cf2594af7e857f18b687ad21039c1f9b922fac5b9b142d5/traitlets-4.3.3-py2.py3-none-any.whl (75kB)
+    100% |████████████████████████████████| 81kB 4.8MB/s
+Collecting jupyter-console (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/0a/89/742fa5a80b552ffcb6a8922712697c6e6828aee7b91ee4ae2b79f00f8401/jupyter_console-6.1.0-py2.py3-none-any.whl
+Collecting ipykernel (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/e1/92/8fec943b5b81078399f969f00557804d884c96fcd0bc296e81a2ed4fd270/ipykernel-5.1.3-py3-none-any.whl (116kB)
+    100% |████████████████████████████████| 122kB 2.2MB/s
+Collecting qtconsole (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/7c/57/3528b84ffa753e2089908bbf74bb5ae60653eb7a63797b6234e88b847d67/qtconsole-4.6.0-py2.py3-none-any.whl (121kB)
+    100% |████████████████████████████████| 122kB 2.8MB/s
+Collecting ipywidgets (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/56/a0/dbcf5881bb2f51e8db678211907f16ea0a182b232c591a6d6f276985ca95/ipywidgets-7.5.1-py2.py3-none-any.whl (121kB)
+    100% |████████████████████████████████| 122kB 2.3MB/s
+Collecting notebook (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/f5/69/d2ffaf7efc20ce47469187e3a41e6e03e17b45de5a6559f4e7ab3eace5e1/notebook-6.0.2-py3-none-any.whl (9.7MB)
+    100% |████████████████████████████████| 9.7MB 2.6MB/s
+Collecting nbconvert (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/79/6c/05a569e9f703d18aacb89b7ad6075b404e8a4afde2c26b73ca77bb644b14/nbconvert-5.6.1-py2.py3-none-any.whl (455kB)
+    100% |████████████████████████████████| 460kB 2.2MB/s
+Collecting pytz>=2017.2 (from pandas)
+  Downloading https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl (509kB)
+    100% |████████████████████████████████| 512kB 4.0MB/s
+Collecting mpmath>=0.19 (from sympy)
+  Downloading https://files.pythonhosted.org/packages/ca/63/3384ebb3b51af9610086b23ea976e6d27d6d97bf140a76a365bd77a3eb32/mpmath-1.1.0.tar.gz (512kB)
+    100% |████████████████████████████████| 522kB 1.6MB/s
+Collecting six>=1.5 (from python-dateutil>=2.1->matplotlib)
+  Downloading https://files.pythonhosted.org/packages/65/eb/1f97cb97bfc2390a276969c6fae16075da282f5058082d4cb10c6c5c1dba/six-1.14.0-py2.py3-none-any.whl
+Collecting parso>=0.5.2 (from jedi>=0.10->ipython)
+  Downloading https://files.pythonhosted.org/packages/9b/b0/90353a5ece0987279837835224dead0c424833a224195683e188d384e06b/parso-0.5.2-py2.py3-none-any.whl (99kB)
+    100% |████████████████████████████████| 102kB 2.5MB/s
+Collecting wcwidth (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython)
+  Downloading https://files.pythonhosted.org/packages/58/b4/4850a0ccc6f567cc0ebe7060d20ffd4258b8210efadc259da62dc6ed9c65/wcwidth-0.1.8-py2.py3-none-any.whl
+Collecting ipython-genutils (from traitlets>=4.2->ipython)
+  Downloading https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting jupyter-client (from jupyter-console->jupyter)
+  Downloading https://files.pythonhosted.org/packages/13/81/fe0eee1bcf949851a120254b1f530ae1e01bdde2d3ab9710c6ff81525061/jupyter_client-5.3.4-py2.py3-none-any.whl (92kB)
+    100% |████████████████████████████████| 92kB 4.5MB/s
+Collecting tornado>=4.2 (from ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/4e/f8/86ab848da5c79715f901e22bc23d2dc467b8672fe1eda8d3e1f48cba130c/tornado-6.0.3-cp37-cp37m-win_amd64.whl (415kB)
+    100% |████████████████████████████████| 419kB 4.8MB/s
+Collecting jupyter-core (from qtconsole->jupyter)
+  Downloading https://files.pythonhosted.org/packages/fb/82/86437f661875e30682e99d04c13ba6c216f86f5f6ca6ef212d3ee8b6ca11/jupyter_core-4.6.1-py2.py3-none-any.whl (82kB)
+    100% |████████████████████████████████| 92kB 1.7MB/s
+Collecting widgetsnbextension~=3.5.0 (from ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/6c/7b/7ac231c20d2d33c445eaacf8a433f4e22c60677eb9776c7c5262d7ddee2d/widgetsnbextension-3.5.1-py2.py3-none-any.whl (2.2MB)
+    100% |████████████████████████████████| 2.2MB 2.6MB/s
+Collecting nbformat>=4.2.0 (from ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/5d/69/87745d03d1964649ef734238b32bf08eb843a6594cb03e8bc77edc8f33e9/nbformat-5.0.3-py3-none-any.whl (169kB)
+    100% |████████████████████████████████| 174kB 2.7MB/s
+Collecting pyzmq>=17 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/e8/be/9cbcdf37890942a9f8f09102903dd69d275258752a530b87fe7273fa26ba/pyzmq-18.1.1-cp37-cp37m-win_amd64.whl (1.0MB)
+    100% |████████████████████████████████| 1.1MB 2.0MB/s
+Collecting terminado>=0.8.1 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ff/96/1d9a2c23990aea8f8e0b5c3b6627d03196a73771a17a2d9860bbe9823ab6/terminado-0.8.3-py2.py3-none-any.whl
+Collecting prometheus-client (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/b3/23/41a5a24b502d35a4ad50a5bb7202a5e1d9a0364d0c12f56db3dbf7aca76d/prometheus_client-0.7.1.tar.gz
+Collecting Send2Trash (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/49/46/c3dc27481d1cc57b9385aff41c474ceb7714f7935b1247194adae45db714/Send2Trash-1.5.0-py3-none-any.whl
+Collecting jinja2 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/65/e0/eb35e762802015cab1ccee04e8a277b03f1d8e53da3ec3106882ec42558b/Jinja2-2.10.3-py2.py3-none-any.whl (125kB)
+    100% |████████████████████████████████| 133kB 4.3MB/s
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/4c/ea/236e2584af67bb6df960832731a6e5325fd4441de001767da328c33368ce/pandocfilters-1.4.2.tar.gz
+Collecting mistune<2,>=0.8.1 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/09/ec/4b43dae793655b7d8a25f76119624350b4d65eb663459eb9603d7f1f0345/mistune-0.8.4-py2.py3-none-any.whl
+Collecting bleach (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl (157kB)
+    100% |████████████████████████████████| 163kB 2.3MB/s
+Collecting defusedxml (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/06/74/9b387472866358ebc08732de3da6dc48e44b0aacd2ddaa5cb85ab7e986a2/defusedxml-0.6.0-py2.py3-none-any.whl
+Collecting entrypoints>=0.2.2 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl
+Collecting testpath (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/1b/9e/1a170feaa54f22aeb5a5d16c9015e82234275a3c8ab630b552493f9cb8a9/testpath-0.4.4-py2.py3-none-any.whl (163kB)
+    100% |████████████████████████████████| 174kB 2.6MB/s
+Collecting pywin32>=1.0; sys_platform == "win32" (from jupyter-client->jupyter-console->jupyter)
+  Downloading https://files.pythonhosted.org/packages/bb/23/00fe4fbf9963f3bcb34a443eba0d0283fc51e5887d4045552c87490394e4/pywin32-227-cp37-cp37m-win_amd64.whl (9.1MB)
+    100% |████████████████████████████████| 9.1MB 2.0MB/s
+Collecting jsonschema!=2.5.0,>=2.4 (from nbformat>=4.2.0->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/c5/8f/51e89ce52a085483359217bc72cdbf6e75ee595d5b1d4b5ade40c7e018b8/jsonschema-3.2.0-py2.py3-none-any.whl (56kB)
+    100% |████████████████████████████████| 61kB 2.2MB/s
+Collecting pywinpty>=0.5; os_name == "nt" (from terminado>=0.8.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/7b/de/c69772738f10140d531b46b7462fc1dccb4175987daaa851a8cda2326251/pywinpty-0.5.7-cp37-cp37m-win_amd64.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 2.7MB/s
+Collecting MarkupSafe>=0.23 (from jinja2->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/65/c6/2399700d236d1dd681af8aebff1725558cddfd6e43d7a5184a675f4711f5/MarkupSafe-1.1.1-cp37-cp37m-win_amd64.whl
+Collecting webencodings (from bleach->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+Collecting pyrsistent>=0.14.0 (from jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/90/aa/cdcf7ef88cc0f831b6f14c8c57318824c9de9913fe8de38e46a98c069a35/pyrsistent-0.15.7.tar.gz (107kB)
+    100% |████████████████████████████████| 112kB 3.7MB/s
+Collecting attrs>=17.4.0 (from jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+Collecting importlib-metadata; python_version < "3.8" (from jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/d7/31/74dcb59a601b95fce3b0334e8fc9db758f78e43075f22aeb3677dfb19f4c/importlib_metadata-1.4.0-py2.py3-none-any.whl
+Collecting zipp>=0.5 (from importlib-metadata; python_version < "3.8"->jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/f4/50/cc72c5bcd48f6e98219fc4a88a5227e9e28b81637a99c49feba1d51f4d50/zipp-1.0.0-py2.py3-none-any.whl
+Collecting more-itertools (from zipp>=0.5->importlib-metadata; python_version < "3.8"->jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/bc/e2/3206a70758a21f9878fcf9478282bb68fbc66a5564718f9ed724c3f2bb52/more_itertools-8.1.0-py3-none-any.whl (41kB)
+    100% |████████████████████████████████| 51kB 3.9MB/s
+Installing collected packages: numpy, scipy, pyparsing, six, python-dateutil, kiwisolver, cycler, matplotlib, backcall, parso, jedi, pygments, decorator, pickleshare, colorama, wcwidth, prompt-toolkit, ipython-genutils, traitlets, ipython, pyzmq, pywin32, jupyter-core, tornado, jupyter-client, ipykernel, jupyter-console, qtconsole, pywinpty, terminado, prometheus-client, Send2Trash, pyrsistent, attrs, more-itertools, zipp, importlib-metadata, jsonschema, nbformat, MarkupSafe, jinja2, pandocfilters, mistune, webencodings, bleach, defusedxml, entrypoints, testpath, nbconvert, notebook, widgetsnbextension, ipywidgets, jupyter, pytz, pandas, mpmath, sympy, nose
+  The script f2py.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for backcall ... done
+  The script pygmentize.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The scripts iptest.exe, iptest3.exe, ipython.exe and ipython3.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The scripts jupyter-migrate.exe, jupyter-troubleshoot.exe and jupyter.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The scripts jupyter-kernel.exe, jupyter-kernelspec.exe and jupyter-run.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The script jupyter-console.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for prometheus-client ... done
+  Running setup.py install for pyrsistent ... done
+  The script jsonschema.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The script jupyter-trust.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for pandocfilters ... done
+  The script jupyter-nbconvert.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The scripts jupyter-bundlerextension.exe, jupyter-nbextension.exe, jupyter-notebook.exe and jupyter-serverextension.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for mpmath ... done
+  The script isympy.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The scripts nosetests-3.4.exe and nosetests.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed MarkupSafe-1.1.1 Send2Trash-1.5.0 attrs-19.3.0 backcall-0.1.0 bleach-3.1.0 colorama-0.4.3 cycler-0.10.0 decorator-4.4.1 defusedxml-0.6.0 entrypoints-0.3 importlib-metadata-1.4.0 ipykernel-5.1.3 ipython-7.11.1 ipython-genutils-0.2.0 ipywidgets-7.5.1 jedi-0.15.2 jinja2-2.10.3 jsonschema-3.2.0 jupyter-1.0.0 jupyter-client-5.3.4 jupyter-console-6.1.0 jupyter-core-4.6.1 kiwisolver-1.1.0 matplotlib-3.1.2 mistune-0.8.4 more-itertools-8.1.0 mpmath-1.1.0 nbconvert-5.6.1 nbformat-5.0.3 nose-1.3.7 notebook-6.0.2 numpy-1.18.1 pandas-0.25.3 pandocfilters-1.4.2 parso-0.5.2 pickleshare-0.7.5 prometheus-client-0.7.1 prompt-toolkit-3.0.2 pygments-2.5.2 pyparsing-2.4.6 pyrsistent-0.15.7 python-dateutil-2.8.1 pytz-2019.3 pywin32-227 pywinpty-0.5.7 pyzmq-18.1.1 qtconsole-4.6.0 scipy-1.4.1 six-1.14.0 sympy-1.5.1 terminado-0.8.3 testpath-0.4.4 tornado-6.0.3 traitlets-4.3.3 wcwidth-0.1.8 webencodings-0.5.1 widgetsnbextension-3.5.1 zipp-1.0.0
+You are using pip version 19.0.3, however version 19.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+PS C:\Users\x1x\AppData\Local\Programs\Python\Python37> C:\Users\x1x\AppData\Roaming\Python\Python37\Scripts
+
+=================================================================
+
+PS C:\work\HG_python\modbus> py.exe -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+Collecting numpy
+  Downloading https://files.pythonhosted.org/packages/95/47/ea0ae5a778aae07ede486f3dc7cd4b788dc53e11b01a17251b020f76a01d/numpy-1.18.1-cp38-cp38-win_amd64.whl (12.8MB)
+     |████████████████████████████████| 12.8MB 6.8MB/s
+Collecting scipy
+  Downloading https://files.pythonhosted.org/packages/f8/b9/98a75846fdda3756ce75705b518dde4c599ba419d11415ce3fe1ebc4a885/scipy-1.4.1-cp38-cp38-win_amd64.whl (31.0MB)
+     |████████████████████████████████| 31.0MB 3.3MB/s
+Collecting matplotlib
+  Downloading https://files.pythonhosted.org/packages/d0/7e/632e6ab64b93148b79da35e53d572c50c4a28d3964362e41228e8dd3bf93/matplotlib-3.1.2-cp38-cp38-win_amd64.whl (9.1MB)
+     |████████████████████████████████| 9.1MB 2.2MB/s
+Collecting ipython
+  Using cached https://files.pythonhosted.org/packages/1c/f3/c8be38ee117d02508bb8b9158eb41ca416f442a6e8e3b3159c2f2d14ed79/ipython-7.11.1-py3-none-any.whl
+Collecting jupyter
+  Using cached https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl
+Collecting pandas
+  Downloading https://files.pythonhosted.org/packages/75/36/f8510689a295627481cde0996b0653424e1ca279d2201f4835a096c42fa6/pandas-1.0.0-cp38-cp38-win_amd64.whl (9.1MB)
+     |████████████████████████████████| 9.2MB 3.3MB/s
+Collecting sympy
+  Using cached https://files.pythonhosted.org/packages/ce/5b/acc12e3c0d0be685601fc2b2d20ed18dc0bf461380e763afc9d0a548deb0/sympy-1.5.1-py2.py3-none-any.whl
+Collecting nose
+  Using cached https://files.pythonhosted.org/packages/15/d8/dd071918c040f50fa1cf80da16423af51ff8ce4a0f2399b7bf8de45ac3d9/nose-1.3.7-py3-none-any.whl
+Collecting kiwisolver>=1.0.1 (from matplotlib)
+  Downloading https://files.pythonhosted.org/packages/73/c8/ec7ec2a9b5efd26cdb5a72bfff1cfc2eda11d981bb58a44351c7113e2e29/kiwisolver-1.1.0-cp38-none-win_amd64.whl (57kB)
+     |████████████████████████████████| 61kB 1.9MB/s
+Collecting python-dateutil>=2.1 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/5d/bc/1e58593167fade7b544bfe9502a26dc860940a79ab306e651e7f13be68c2/pyparsing-2.4.6-py2.py3-none-any.whl
+Collecting cycler>=0.10 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl
+Collecting traitlets>=4.2 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/ca/ab/872a23e29cec3cf2594af7e857f18b687ad21039c1f9b922fac5b9b142d5/traitlets-4.3.3-py2.py3-none-any.whl
+Collecting colorama; sys_platform == "win32" (from ipython)
+  Using cached https://files.pythonhosted.org/packages/c9/dc/45cdef1b4d119eb96316b3117e6d5708a08029992b2fee2c143c7a0a5cc5/colorama-0.4.3-py2.py3-none-any.whl
+Collecting pickleshare (from ipython)
+  Using cached https://files.pythonhosted.org/packages/9a/41/220f49aaea88bc6fa6cba8d05ecf24676326156c23b991e80b3f2fc24c77/pickleshare-0.7.5-py2.py3-none-any.whl
+Collecting jedi>=0.10 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/01/67/333e2196b70840f411fd819407b4e98aa3150c2bd24c52154a451f912ef2/jedi-0.16.0-py2.py3-none-any.whl
+Collecting backcall (from ipython)
+  Using cached https://files.pythonhosted.org/packages/84/71/c8ca4f5bb1e08401b916c68003acf0a0655df935d74d93bf3f3364b310e0/backcall-0.1.0.tar.gz
+Collecting decorator (from ipython)
+  Using cached https://files.pythonhosted.org/packages/8f/b7/f329cfdc75f3d28d12c65980e4469e2fa373f1953f5df6e370e84ea2e875/decorator-4.4.1-py2.py3-none-any.whl
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/f5/22/f00412fafc68169054cc623a35c32773f22b403ddbe516c8adfdecf25341/prompt_toolkit-3.0.3-py3-none-any.whl
+Requirement already satisfied: setuptools>=18.5 in c:\users\x1x\appdata\local\programs\python\python38\lib\site-packages (from ipython) (41.2.0)
+Collecting pygments (from ipython)
+  Using cached https://files.pythonhosted.org/packages/be/39/32da3184734730c0e4d3fa3b2b5872104668ad6dc1b5a73d8e477e5fe967/Pygments-2.5.2-py2.py3-none-any.whl
+Collecting ipykernel (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/d7/62/d1a5d654b7a21bd3eb99be1b59a608cc18a7a08ed88495457a87c40a0495/ipykernel-5.1.4-py3-none-any.whl
+Collecting ipywidgets (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/56/a0/dbcf5881bb2f51e8db678211907f16ea0a182b232c591a6d6f276985ca95/ipywidgets-7.5.1-py2.py3-none-any.whl
+Collecting notebook (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/b1/f1/0a67f09ef53a342403ffa66646ee39273e0ac79ffa5de5dbe2f3e28b5bdf/notebook-6.0.3-py3-none-any.whl
+Collecting jupyter-console (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/0a/89/742fa5a80b552ffcb6a8922712697c6e6828aee7b91ee4ae2b79f00f8401/jupyter_console-6.1.0-py2.py3-none-any.whl
+Collecting nbconvert (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/79/6c/05a569e9f703d18aacb89b7ad6075b404e8a4afde2c26b73ca77bb644b14/nbconvert-5.6.1-py2.py3-none-any.whl
+Collecting qtconsole (from jupyter)
+  Using cached https://files.pythonhosted.org/packages/7c/57/3528b84ffa753e2089908bbf74bb5ae60653eb7a63797b6234e88b847d67/qtconsole-4.6.0-py2.py3-none-any.whl
+Collecting pytz>=2017.2 (from pandas)
+  Using cached https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl
+Collecting mpmath>=0.19 (from sympy)
+  Using cached https://files.pythonhosted.org/packages/ca/63/3384ebb3b51af9610086b23ea976e6d27d6d97bf140a76a365bd77a3eb32/mpmath-1.1.0.tar.gz
+Collecting six>=1.5 (from python-dateutil>=2.1->matplotlib)
+  Using cached https://files.pythonhosted.org/packages/65/eb/1f97cb97bfc2390a276969c6fae16075da282f5058082d4cb10c6c5c1dba/six-1.14.0-py2.py3-none-any.whl
+Collecting ipython-genutils (from traitlets>=4.2->ipython)
+  Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting parso>=0.5.2 (from jedi>=0.10->ipython)
+  Using cached https://files.pythonhosted.org/packages/c6/42/cb41a6b0cf27fff05e5caab37e254cf6a69442634f4c5d4a03f2d5cb12eb/parso-0.6.0-py2.py3-none-any.whl
+Collecting wcwidth (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython)
+  Using cached https://files.pythonhosted.org/packages/58/b4/4850a0ccc6f567cc0ebe7060d20ffd4258b8210efadc259da62dc6ed9c65/wcwidth-0.1.8-py2.py3-none-any.whl
+Collecting jupyter-client (from ipykernel->jupyter)
+  Using cached https://files.pythonhosted.org/packages/13/81/fe0eee1bcf949851a120254b1f530ae1e01bdde2d3ab9710c6ff81525061/jupyter_client-5.3.4-py2.py3-none-any.whl
+Collecting tornado>=4.2 (from ipykernel->jupyter)
+  Using cached https://files.pythonhosted.org/packages/30/78/2d2823598496127b21423baffaa186b668f73cd91887fcef78b6eade136b/tornado-6.0.3.tar.gz
+Collecting widgetsnbextension~=3.5.0 (from ipywidgets->jupyter)
+  Using cached https://files.pythonhosted.org/packages/6c/7b/7ac231c20d2d33c445eaacf8a433f4e22c60677eb9776c7c5262d7ddee2d/widgetsnbextension-3.5.1-py2.py3-none-any.whl
+Collecting nbformat>=4.2.0 (from ipywidgets->jupyter)
+  Using cached https://files.pythonhosted.org/packages/ac/eb/de575b7a64e7ab8d8c95e4c180ccc36deda3f1379186c4ee7adf6c2f1586/nbformat-5.0.4-py3-none-any.whl
+Collecting Send2Trash (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/49/46/c3dc27481d1cc57b9385aff41c474ceb7714f7935b1247194adae45db714/Send2Trash-1.5.0-py3-none-any.whl
+Collecting jupyter-core>=4.6.1 (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/fb/82/86437f661875e30682e99d04c13ba6c216f86f5f6ca6ef212d3ee8b6ca11/jupyter_core-4.6.1-py2.py3-none-any.whl
+Collecting prometheus-client (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/b3/23/41a5a24b502d35a4ad50a5bb7202a5e1d9a0364d0c12f56db3dbf7aca76d/prometheus_client-0.7.1.tar.gz
+Collecting jinja2 (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/7b/af/b9ed1959cb4bb7332e2b0797476c878fa38d200bfcfe38c6d53517c29bdf/Jinja2-2.11.0-py2.py3-none-any.whl
+Collecting pyzmq>=17 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/7d/f1/4b12dd1f7dcffb3875350f1a52b9a325d68539b9abfd7d4ee65bd20e7f5e/pyzmq-18.1.1-cp38-cp38-win_amd64.whl (1.1MB)
+     |████████████████████████████████| 1.1MB 6.4MB/s
+Collecting terminado>=0.8.1 (from notebook->jupyter)
+  Using cached https://files.pythonhosted.org/packages/ff/96/1d9a2c23990aea8f8e0b5c3b6627d03196a73771a17a2d9860bbe9823ab6/terminado-0.8.3-py2.py3-none-any.whl
+Collecting entrypoints>=0.2.2 (from nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl
+Collecting mistune<2,>=0.8.1 (from nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/09/ec/4b43dae793655b7d8a25f76119624350b4d65eb663459eb9603d7f1f0345/mistune-0.8.4-py2.py3-none-any.whl
+Collecting defusedxml (from nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/06/74/9b387472866358ebc08732de3da6dc48e44b0aacd2ddaa5cb85ab7e986a2/defusedxml-0.6.0-py2.py3-none-any.whl
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/4c/ea/236e2584af67bb6df960832731a6e5325fd4441de001767da328c33368ce/pandocfilters-1.4.2.tar.gz
+Collecting bleach (from nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl
+Collecting testpath (from nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/1b/9e/1a170feaa54f22aeb5a5d16c9015e82234275a3c8ab630b552493f9cb8a9/testpath-0.4.4-py2.py3-none-any.whl
+Collecting pywin32>=1.0; sys_platform == "win32" (from jupyter-client->ipykernel->jupyter)
+  Downloading https://files.pythonhosted.org/packages/cf/06/0d55292927ada3f8516e437292d85e33d6f763dd2dcc6b95f62a91ad9740/pywin32-227-cp38-cp38-win_amd64.whl (9.1MB)
+     |████████████████████████████████| 9.1MB 6.4MB/s
+Collecting jsonschema!=2.5.0,>=2.4 (from nbformat>=4.2.0->ipywidgets->jupyter)
+  Using cached https://files.pythonhosted.org/packages/c5/8f/51e89ce52a085483359217bc72cdbf6e75ee595d5b1d4b5ade40c7e018b8/jsonschema-3.2.0-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from jinja2->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/4f/8b/da8a2ae5780d38271ac6e691756fc938cf4df8f225eb8aaced0204304932/MarkupSafe-1.1.1-cp38-cp38-win_amd64.whl
+Collecting pywinpty>=0.5; os_name == "nt" (from terminado>=0.8.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/f8/9f/cb2a929f18cd2a3cf6242cf57b4d723ecf45b97653795475825d6af218a4/pywinpty-0.5.7-cp38-cp38-win_amd64.whl (1.3MB)
+     |████████████████████████████████| 1.3MB 6.8MB/s
+Collecting webencodings (from bleach->nbconvert->jupyter)
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->jupyter)
+  Using cached https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+Collecting pyrsistent>=0.14.0 (from jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->jupyter)
+  Using cached https://files.pythonhosted.org/packages/90/aa/cdcf7ef88cc0f831b6f14c8c57318824c9de9913fe8de38e46a98c069a35/pyrsistent-0.15.7.tar.gz
+Installing collected packages: numpy, scipy, kiwisolver, six, python-dateutil, pyparsing, cycler, matplotlib, ipython-genutils, decorator, traitlets, colorama, pickleshare, parso, jedi, backcall, wcwidth, prompt-toolkit, pygments, ipython, pywin32, jupyter-core, tornado, pyzmq, jupyter-client, ipykernel, Send2Trash, attrs, pyrsistent, jsonschema, nbformat, prometheus-client, MarkupSafe, jinja2, pywinpty, terminado, entrypoints, mistune, defusedxml, pandocfilters, webencodings, bleach, testpath, nbconvert, notebook, widgetsnbextension, ipywidgets, jupyter-console, qtconsole, jupyter, pytz, pandas, mpmath, sympy, nose
+  WARNING: The script f2py.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for backcall ... done
+  WARNING: The script pygmentize.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts iptest.exe, iptest3.exe, ipython.exe and ipython3.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-migrate.exe, jupyter-troubleshoot.exe and jupyter.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for tornado ... done
+  WARNING: The scripts jupyter-kernel.exe, jupyter-kernelspec.exe and jupyter-run.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for pyrsistent ... done
+  WARNING: The script jsonschema.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-trust.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for prometheus-client ... done
+  Running setup.py install for pandocfilters ... done
+  WARNING: The script jupyter-nbconvert.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-bundlerextension.exe, jupyter-nbextension.exe, jupyter-notebook.exe and jupyter-serverextension.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-console.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Running setup.py install for mpmath ... done
+  WARNING: The script isympy.exe is installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts nosetests-3.4.exe and nosetests.exe are installed in 'C:\Users\x1x\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed MarkupSafe-1.1.1 Send2Trash-1.5.0 attrs-19.3.0 backcall-0.1.0 bleach-3.1.0 colorama-0.4.3 cycler-0.10.0 decorator-4.4.1 defusedxml-0.6.0 entrypoints-0.3 ipykernel-5.1.4 ipython-7.11.1 ipython-genutils-0.2.0 ipywidgets-7.5.1 jedi-0.16.0 jinja2-2.11.0 jsonschema-3.2.0 jupyter-1.0.0 jupyter-client-5.3.4 jupyter-console-6.1.0 jupyter-core-4.6.1 kiwisolver-1.1.0 matplotlib-3.1.2 mistune-0.8.4 mpmath-1.1.0 nbconvert-5.6.1 nbformat-5.0.4 nose-1.3.7 notebook-6.0.3 numpy-1.18.1 pandas-1.0.0 pandocfilters-1.4.2 parso-0.6.0 pickleshare-0.7.5 prometheus-client-0.7.1 prompt-toolkit-3.0.3 pygments-2.5.2 pyparsing-2.4.6 pyrsistent-0.15.7 python-dateutil-2.8.1 pytz-2019.3 pywin32-227 pywinpty-0.5.7 pyzmq-18.1.1 qtconsole-4.6.0 scipy-1.4.1 six-1.14.0 sympy-1.5.1 terminado-0.8.3 testpath-0.4.4 tornado-6.0.3 traitlets-4.3.3 wcwidth-0.1.8 webencodings-0.5.1 widgetsnbextension-3.5.1
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

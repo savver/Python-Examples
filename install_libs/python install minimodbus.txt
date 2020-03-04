@@ -1,0 +1,23 @@
+PS C:\work\HG_python\xxx> cd C:\Users\x1x\AppData\Local\Programs\Python\Python37
+PS C:\Users\x1x\AppData\Local\Programs\Python\Python37> .\python.exe -m pip install --user minimalmodbus
+Collecting minimalmodbus
+  Downloading https://files.pythonhosted.org/packages/6c/d5/77d42e8a0b73da2b5f97acd91900ac50e303b4cb959f76350cfbb38e05a0/minimalmodbus-1.0.2-py2.py3-none-any.whl
+Collecting pyserial>=3.0 (from minimalmodbus)
+  Downloading https://files.pythonhosted.org/packages/0d/e4/2a744dd9e3be04a0c0907414e2a01a7c88bb3915cbe3c8cc06e209f59c30/pyserial-3.4-py2.py3-none-any.whl (193kB)
+    100% |████████████████████████████████| 194kB 4.1MB/s
+Installing collected packages: pyserial, minimalmodbus
+Successfully installed minimalmodbus-1.0.2 pyserial-3.4
+You are using pip version 19.0.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+================================
+
+PS C:\work\HG_python\modbus> py.exe -m pip install --user minimalmodbus
+Collecting minimalmodbus
+  Using cached https://files.pythonhosted.org/packages/6c/d5/77d42e8a0b73da2b5f97acd91900ac50e303b4cb959f76350cfbb38e05a0/minimalmodbus-1.0.2-py2.py3-none-any.whl
+Collecting pyserial>=3.0 (from minimalmodbus)
+  Using cached https://files.pythonhosted.org/packages/0d/e4/2a744dd9e3be04a0c0907414e2a01a7c88bb3915cbe3c8cc06e209f59c30/pyserial-3.4-py2.py3-none-any.whl
+Installing collected packages: pyserial, minimalmodbus
+Successfully installed minimalmodbus-1.0.2 pyserial-3.4
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
